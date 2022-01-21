@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+	margin: 0;
+	background-color: #e1e3eb;
+}
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+.main {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-main {
+	background-color: aliceblue;
+	padding: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+	width: 250px;
+	height: 50px;
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 25px 0px rgb(226, 225, 225);
+	padding-top: 5px;
+	border: none;
+	outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputDiv {
+	position: absolute;
+	padding: 20px 0 0 5px;
+	font-size: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.second-input {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+	padding-left: 40px;
+	font-size: 15px;
+}
+button {
+	background: #56a9af;
+	border: 0;
+	padding: 10px 30px;
+	color: #fff;
+	transition: 0.4s;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover {
+	color: black;
+	padding: 10px 34px;
+}
+
+a {
+	color: #2d92c0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(49, 154, 240);
+}
+
+.signup {
+	width: 50%;
+}
+
+.signupPage {
+	margin-top: 5%;
+}
+
+.mainInput > div {
+	padding-bottom: 10px;
 }
