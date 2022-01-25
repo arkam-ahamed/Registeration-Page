@@ -34,7 +34,7 @@ const Login = () => (
 				<input type="password" placeholder="password" className="name" />
 			</div>
 			<div className="login-button">
-				<button>Login</button>
+				<button className="button">Login</button>
 				<p className="link">
 					Don't have an account? <Link to="/signup">Sign Up Here</Link>
 				</p>

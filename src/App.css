@@ -45,7 +45,7 @@ input {
 	padding-left: 40px;
 	font-size: 15px;
 }
-button {
+.button {
 	background: #56a9af;
 	border: 0;
 	padding: 10px 30px;
@@ -54,7 +54,7 @@ button {
 	border-radius: 4px;
 	cursor: pointer;
 }
-button:hover {
+.button:hover {
 	color: black;
 	padding: 10px 34px;
 }
